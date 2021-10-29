@@ -1,4 +1,4 @@
-import AsyncStorage from '@react-native-community/async-storage';
+const { AsyncStorage } = require("react-native");
 
 function getItems(){
     return AsyncStorage.getItem('items')
